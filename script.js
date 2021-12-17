@@ -156,12 +156,30 @@ domOn('.Element', 'click', evt => {
     if (evt.currentTarget.classList.contains('GAPS')) {
         window.open("https://gaps.heig-vd.ch/consultation/", "_blank")
     }
+    if (evt.currentTarget.classList.contains('Google')) {
+        window.open("https://drive.google.com/drive/my-drive", "_blank")
+    }
+    if (evt.currentTarget.classList.contains('FFXIV')) {
+        window.open("https://eu.finalfantasyxiv.com/lodestone/", "_blank")
+    }
+    if(evt.currentTarget.classList.contains('Scholarvox')){
+        window.open("https://univ.scholarvox.com/","_blank")
+    }
+    if(evt.currentTarget.classList.contains('Wikipedia')){
+        window.open("https://wikipedia.com/","_blank")
+    }
+    if(evt.currentTarget.classList.contains('Whatsapp')){
+        window.open("https://web.whatsapp.com/","_blank")
+    }
     
 })
 
 //partie des news
 domOn('.News','click', evt=>{
     let newsClasse = evt.currentTarget.className;
+    if (evt.currentTarget.classList.contains('leTemps')) {
+        window.open("https://letemps.ch", "_blank")
+    }
     if (evt.currentTarget.classList.contains('Techradar')) {
         window.open("https://techradar.com", "_blank")
     }
@@ -180,6 +198,7 @@ domOn('.News','click', evt=>{
     if(evt.currentTarget.classList.contains('github')){
         window.open("https://github.com/dk-xy/","_blank")
 }
+
 })
 
 

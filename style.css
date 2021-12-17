@@ -10,7 +10,13 @@ body{background-color: #202020;
 }
 a{
     text-decoration: none;
-    color:cornflowerblue;
+    color:white;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: #aed6f1 ;
+    transition-duration: 0.5s;
 }
 
 link{
@@ -36,6 +42,7 @@ link:visited{
 
 h1{
     margin-left:50px;
+    font-size: 2.1vw;
 }
 
 .allContainer{
@@ -51,6 +58,10 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 
+}
+
+.websiteContainer h1{
+    width: 100%;
 }
 
 .newsContainer{
@@ -87,8 +98,8 @@ flex-wrap: wrap;
 
 
 .Element{
-width: 12vw;
-height:10vw;
+width: 11vw;
+height:9vw;
 position: relative;
 display: inline-block;
 text-align: center;
@@ -98,7 +109,7 @@ right:auto;
 margin: 20px;
 background-color:  	 	#181818;
 border-radius: 5%;
-font-size: 20px;
+
 
 }
 
@@ -106,6 +117,8 @@ font-size: 20px;
         text-align: center;
         width: 9vw;
         height:5vw;
+        min-width: 9vw;
+        min-height: 5vw;
         top:50%;
         position: relative;
         display: inline-block;
@@ -134,8 +147,10 @@ width:50%;
 }
 
 .line{
-    border-right: 1px solid #080808;
-    margin-right: 20px;
+
+    padding-right: 30px;
+
+    border-left: 2px solid #080808;
 }
 
 .newsContainer .News .siteEtiquette{
@@ -164,19 +179,19 @@ width:50%;
 }
 
 .Element img{
-    margin-bottom: 1.2vh;
+    margin-bottom: 1vh;
     margin-top:0.5vh;
     max-width:5vw;
 }
 
 .HEIG img{
-    margin-top:2vh;
-    padding-bottom: 10px;
+    margin-top:0.5vh;
 }
 
 
 .siteEtiquette{
-    font-size: 1.75vw;
+    font-size: 1.25vw;
+font-weight: 500;
 }
 
 
